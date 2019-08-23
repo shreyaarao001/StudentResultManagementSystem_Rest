@@ -8,11 +8,9 @@ public class Calculate {
 	{
 		int total;
 		int maths=student_info.getMaths();
-		System.out.println(maths);
 		int chemistry=student_info.getChemistry();
 		int physics=student_info.getPhysics();
 		total=maths+physics+chemistry;
-		System.out.println(total);
 		return total;
 	}
 	public static String getGrade(int total)
